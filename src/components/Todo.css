@@ -1,0 +1,59 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration:underline;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+ 
+  width: 20%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 5px;
+  background-color: #4287f5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: #f2f2f2;
+}
+
+li.completed {
+  text-decoration: line-through;
+}
+
+span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.remove-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
